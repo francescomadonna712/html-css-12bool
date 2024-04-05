@@ -1,5 +1,43 @@
+/* reset css */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* container */
+
+.container{
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2{
+    color: white;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    padding: 1rem;
+    background-color: rgb(18, 131, 93);
+}
+
+.big{
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.inside{
+    background-color: rgb(131, 48, 18);
+}
+
